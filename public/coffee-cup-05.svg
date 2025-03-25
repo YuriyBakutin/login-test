@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 24 24"
+   width="24"
+   height="24"
+   fill="none"
+   stroke="#97250A"
+   stroke-linecap="round"
+   stroke-width="1.5"
+   version="1.1"
+   id="svg2"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2" />
+  <path
+     d="m 14.922686,12.519555 h 3.477588 c 3.860895,0.003 3.860895,5.792123 0,5.789034 h -2.318392"
+     id="path5"
+     style="stroke:#374845;stroke-width:2;stroke-dasharray:none" />
+  <path
+     d="M 7.4492223,9.322429 C 7.6831223,8.4496997 7.292602,7.4102465 6.0447921,7.076798 v 0 A 2.5862947,2.583196 0 0 1 4.2178994,3.9152131 l 0.150438,-0.5608932"
+     id="path6"
+     style="stroke:#374845;stroke-width:2;stroke-dasharray:none" />
+  <path
+     d="M 11.709911,9.322429 11.827375,8.8860644 A 2.7130335,2.7097829 0 0 0 9.9087779,5.5670177 v 0 A 1.8083455,1.8061788 0 0 1 8.6300569,3.3543199 L 8.7464916,2.9179554"
+     id="path7"
+     style="stroke:#374845;stroke-width:2;stroke-dasharray:none" />
+  <path
+     d="m 10.285903,22.939817 a 5.7959793,5.7890349 0 0 0 5.795979,-5.789034 l 0.0073,-3.985944 A 0.64605848,0.64528442 0 0 0 15.443036,12.519555 H 1.6583949 a 0.64605848,0.64528442 0 0 0 -0.6460584,0.645284 v 3.985944 a 5.7959793,5.7890349 0 0 0 5.7959793,5.789034 z"
+     id="path8"
+     style="stroke:#374845;stroke-width:2;stroke-dasharray:none" />
+  <path
+     d="m 16.163549,10.535102 h 3.477587 c 3.860895,0.003 3.860895,5.792121 0,5.789034 h -2.318391"
+     id="path4"
+     style="stroke:#ff310c;stroke-width:3;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     d="M 8.6900843,7.7851845 C 8.9239843,6.9124553 8.533464,5.8730019 7.2856541,5.5395536 v 0 A 2.5862947,2.583196 0 0 1 5.4587615,2.3779686 L 5.6091993,1.8170755"
+     id="path3"
+     style="stroke:#ff310c;stroke-width:2;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     d="M 12.950773,7.7851845 13.068238,7.3488199 A 2.7130335,2.7097829 0 0 0 11.149641,4.0297732 v 0 A 1.8083455,1.8061788 0 0 1 9.870918,1.8170755 L 9.9873542,1.3807109"
+     id="path1"
+     style="stroke:#ff310c;stroke-width:2;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     d="m 11.526766,20.955365 a 5.7959793,5.7890349 0 0 0 5.795979,-5.789035 l 0.0073,-3.985944 A 0.64605848,0.64528442 0 0 0 16.683898,10.535102 H 2.8992571 a 0.64605848,0.64528442 0 0 0 -0.6460585,0.645284 v 3.985944 a 5.7959793,5.7890349 0 0 0 5.7959792,5.789035 z"
+     id="path2"
+     style="stroke:#ff310c;stroke-width:3;stroke-dasharray:none;stroke-opacity:1" />
+</svg>

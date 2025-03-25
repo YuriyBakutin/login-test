@@ -1,0 +1,134 @@
+[
+  {
+    "id": "1",
+    "status_id": 1,
+    "date_created,": "03.04.2022",
+    "city_id": 3,
+    "model": 1,
+    "work_counter": 43267,
+    "repairs_number": 2,
+    "next_service_date": "08.04.2025",
+    "service_company_id": 3
+  },
+  {
+    "id": "2",
+    "status_id": 1,
+    "date_created,": "04.10.2022",
+    "city_id": 2,
+    "model": 2,
+    "work_counter": 63236,
+    "repairs_number": 3,
+    "next_service_date": "10.04.2025",
+    "service_company_id": 2
+  },
+  {
+    "id": "3",
+    "status_id": 2,
+    "date_created,": "06.10.2022",
+    "city_id": 2,
+    "model": 3,
+    "work_counter": 57664,
+    "repairs_number": 1,
+    "next_service_date": "03.04.2025",
+    "service_company_id": 2
+  },
+  {
+    "id": "4",
+    "status_id": 3,
+    "date_created,": "07.10.2023",
+    "city_id": 1,
+    "model": 2,
+    "work_counter": 64281,
+    "repairs_number": 1,
+    "next_service_date": "12.04.2025",
+    "service_company_id": 3
+  },
+  {
+    "id": "6",
+    "status_id": 1,
+    "date_created,": "04.02.2025",
+    "city_id": 7,
+    "model": 3,
+    "work_counter": 3793,
+    "repairs_number": 0,
+    "next_service_date": "07.04.2025",
+    "service_company_id": 1
+  },
+  {
+    "id": "12",
+    "status_id": 2,
+    "date_created,": "17.01.2025",
+    "city_id": 5,
+    "model": 1,
+    "work_counter": 2110,
+    "repairs_number": 0,
+    "next_service_date": "10.04.2025",
+    "service_company_id": 2
+  },
+  {
+    "id": "10",
+    "status_id": 1,
+    "date_created,": "15.12.2024",
+    "city_id": 8,
+    "model": 4,
+    "work_counter": 7931,
+    "repairs_number": 0,
+    "next_service_date": "13.04.2025",
+    "service_company_id": 5
+  },
+  {
+    "id": "7",
+    "status_id": 1,
+    "date_created,": "11.10.2024",
+    "city_id": 1,
+    "model": 2,
+    "work_counter": 7420,
+    "repairs_number": 0,
+    "next_service_date": "01.04.2025",
+    "service_company_id": 4
+  },
+  {
+    "id": "19",
+    "status_id": 1,
+    "date_created,": "03.10.2024",
+    "city_id": 4,
+    "model": 1,
+    "work_counter": 15570,
+    "repairs_number": 0,
+    "next_service_date": "04.04.2025",
+    "service_company_id": 2
+  },
+  {
+    "id": "22",
+    "status_id": 1,
+    "date_created,": "07.09.2024",
+    "city_id": 6,
+    "model": 3,
+    "work_counter": 8955,
+    "repairs_number": 0,
+    "next_service_date": "10.04.2025",
+    "service_company_id": 2
+  },
+  {
+    "id": "11",
+    "status_id": 1,
+    "date_created,": "06.09.2024",
+    "city_id": 6,
+    "model": 1,
+    "work_counter": 12578,
+    "repairs_number": 1,
+    "next_service_date": "11.04.2025",
+    "service_company_id": 2
+  },
+  {
+    "id": "24",
+    "status_id": 1,
+    "date_created,": "06.11.2023",
+    "city_id": 1,
+    "model": 1,
+    "work_counter": 40853,
+    "repairs_number": 2,
+    "next_service_date": "12.04.2025",
+    "service_company_id": 3
+  }
+]

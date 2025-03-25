@@ -1,0 +1,22 @@
+[
+  {
+    "id": "1",
+    "service_company": "Orange Line"
+  },
+  {
+    "id": "2",
+    "service_company": "Гармония"
+  },
+  {
+    "id": "3",
+    "service_company": "Экспресс-М"
+  },
+  {
+    "id": "4",
+    "service_company": "Coffee Master"
+  },
+  {
+    "id": "5",
+    "service_company": "Guter Kaffee"
+  }
+]

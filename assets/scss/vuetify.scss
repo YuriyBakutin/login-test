@@ -1,0 +1,12 @@
+@use 'vuetify/lib/styles/main' with (
+  $spacer: 0.4rem,
+  $border-radius-root: 0.4rem,
+  $borders: (
+    0: 0,
+    sm: 0.1rem,
+    md: 0.2rem,
+    lg: 0.4rem,
+    xl: 0.8rem,
+  ),
+  $blockquote-font-size: 1.8rem
+);

@@ -1,11 +1,17 @@
-<script setup>
+<script setup lang="ts">
   definePageMeta({
     middleware: 'auth',
   })
 
-  const user = (await useFetch('/api/user', { credentials: 'include' }))?.data
-    ?.value?.user
-  console.log('user: ', user)
+  const payload = (await useFetch('/api/user', { credentials: 'include' }))
+    ?.data?.value
+
+  const user = payload?.user
+  const cMOptions = payload?.coffeeMachinesOptions
+
+  if (cMOptions) {
+    await saveCMOptions(cMOptions)
+  }
 
   async function logout() {
     await $fetch('/api/logout')
@@ -15,28 +21,19 @@
 
 <template>
   <v-app>
-    <v-app-bar app class="position-fixed">
-      <v-toolbar-title class="flex-1-0">
+    <v-app-bar density="compact" class="position-fixed">
+      <template v-slot:prepend>
+        <v-icon color="deep-orange-darken-4" icon="mdi-coffee-outline" />
+      </template>
+      <v-app-bar-title class="flex-1-0">
         <span class="text-blue-grey-darken-2">
           Добро пожаловать,
           {{ `${user?.name} ${user?.surname}` }}!
         </span>
-      </v-toolbar-title>
-      <div class="w-100 h-100 d-flex justify-center align-center ga-1">
-        <v-icon color="deep-orange-darken-4" icon="mdi-coffee-outline" />
-      </div>
-      <div class="d-flex ga-4 align-center mr-5">
-        <v-btn @click="logout">Выход</v-btn>
-      </div>
-    </v-app-bar>
-
-    <!-- <v-card
-      title="Каталог"
-      :subtitle="`Добро пожаловать, ${user?.name} ${user?.surname}!`"
-    >
-      <template v-slot:actions>
+      </v-app-bar-title>
+      <template v-slot:append>
         <v-btn @click="logout">Выход</v-btn>
       </template>
-    </v-card> -->
+    </v-app-bar>
   </v-app>
 </template>
